@@ -1,0 +1,38 @@
+; Polybar Theme 2 (T2)
+
+[module/RSEP1]
+type = custom/text
+content = "◢"
+content-background = #141819
+content-foreground = #af87ff
+
+[module/RSEP2]
+type = custom/text
+content = "◢"
+content-background = #af87ff
+content-foreground = #141819
+
+[module/RSEP3]
+type = custom/text
+content = "◢"
+content-background = #00af87ff
+content-foreground = #141819
+
+
+[module/LSEP1]
+type = custom/text
+content = "◣"
+content-background = #141819
+content-foreground = #0088ff
+
+[module/LSEP2]
+type = custom/text
+content = "◣"
+content-background = #0088ff
+content-foreground = #141819
+
+[module/LSEP3]
+type = custom/text
+content = "◣"
+content-background = #00141819
+content-foreground = #0088ff
