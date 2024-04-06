@@ -8,5 +8,5 @@ T1
 
 
 T2
-![My Image](https://github.com/diws1/polybar-theme/blob/main/screenshots/T1/polybar%20T2.png)
-![My Image](https://github.com/diws1/polybar-theme/blob/main/screenshots/T1/polybar%20T2b.png)
+![My Image](https://github.com/diws1/polybar-theme/blob/main/screenshots/T2/polybar%20T2.png)
+![My Image](https://github.com/diws1/polybar-theme/blob/main/screenshots/T2/polybar%20T2b.png)
