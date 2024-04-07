@@ -1,5 +1,16 @@
 # polybar-theme
 
+## How to use them ?
+In my case, I put them on my autostart file :
+```
+sudo nano ~/.xsessionrc
+```
+Then add this line :
+```
+# Panel
+~/.config/polybar/themes/T1/launch.sh &
+```
+
 
 ## preview
 T1
