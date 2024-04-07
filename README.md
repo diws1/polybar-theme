@@ -1,6 +1,6 @@
 # polybar-theme
 
-## How to use them ?
+## How to use ?
 In my case, I put them on my autostart file :
 ```
 sudo nano ~/.xsessionrc
