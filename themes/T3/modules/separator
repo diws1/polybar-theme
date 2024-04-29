@@ -1,0 +1,38 @@
+; Polybar Theme 3 (T3)
+
+[module/RSEP1]
+type = custom/text
+content = "◢"
+content-background = #141819
+content-foreground = #212729
+
+[module/RSEP2]
+type = custom/text
+content = "◢"
+content-background = #212729
+content-foreground = #141819
+
+[module/RSEP3]
+type = custom/text
+content = "◢"
+content-background = #80141819
+content-foreground = #141819
+
+
+[module/LSEP1]
+type = custom/text
+content = "◣"
+content-background = #141819
+content-foreground = #212729
+
+[module/LSEP2]
+type = custom/text
+content = "◣"
+content-background = #212729
+content-foreground = #141819
+
+[module/LSEP3]
+type = custom/text
+content = "◣"
+content-background = #80141819
+content-foreground = #212729

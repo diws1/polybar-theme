@@ -1,0 +1,119 @@
+; ______________
+; |  \o| . ||__   https://youtube.com/@diws
+; |__/||_|_| __|  https://github.com/diws1
+;
+; Polybar Theme 3 (T3)
+
+
+[global/wm]
+include-file = ./modules/separator
+include-file = ./modules/allmodules
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+
+
+;-_-_-_-_-_-_-_-_TOP BAR-_-_-_-_-_-_-_-_-_
+
+[bar/top]
+width = 100%
+height = 20pt
+radius = 0
+bottom = false
+;offset-x = 250
+
+; dpi = 96
+
+background = #80141819
+foreground = #f9f9f9
+
+line-size = 3pt
+
+;border-size = 
+;border-color = 
+
+padding-left = 0
+padding-right = 0
+
+module-margin = 0
+modules-left = menu LSEP1 LSEP2 wmsettings wallpapers themes browser filemanager terminal LSEP1 LSEP2 filesystem memory cpu LSEP3
+;modules-center = 
+modules-right = RSEP3 xworkspaces
+
+;separator = 
+;separator-foreground = 
+
+;--Text--
+font-0 = Terminus (TTF):pixelsize=9;2
+;--Icons--
+font-1 = FontAwesome:pixelsize=9;2
+;--External separator--
+font-2 = DejaVu Sans:pixelsize=33;6
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+;tray-position = right
+
+
+
+;-_-_-_-_-_-_-_-_BOTTOM BAR-_-_-_-_-_-_-_-_-_
+
+[bar/bottom]
+width = 100%
+height = 20pt
+radius = 0
+bottom = true
+
+; dpi = 96
+
+background = #80141819
+foreground = #f9f9f9
+
+line-size = 3pt
+
+;border-size = 
+;border-color = 
+
+padding-left = 0
+padding-right = 0
+
+module-margin = 0
+modules-left =  xwindow
+;modules-center = 
+modules-right = RSEP3 mpd RSEP1 pulseaudio RSEP2 xkeyboard RSEP1 battery RSEP2 wlan eth RSEP1 date RSEP2 powermenu
+
+;separator = 
+;separator-foreground = 
+
+;--Text--
+font-0 = Terminus (TTF):pixelsize=9;2
+;--Icons--
+font-1 = FontAwesome:pixelsize=9;2
+;--External separator--
+font-2 = DejaVu Sans:pixelsize=33;6
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+; tray-position = right
+
+; wm-restack = generic
+; wm-restack = bspwm
+; wm-restack = i3
+
+; override-redirect = true
+
+; vim:ft=dosini
+
+
+
+
+
+
